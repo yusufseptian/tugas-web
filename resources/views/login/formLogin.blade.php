@@ -15,7 +15,7 @@
 <div class="mb-4">
     <div class="row">
         <div class="col-6">
-            <small>Don't have account, <a href="register">register?</a></small>
+            <small>Belum punya akun, <a href="register">register?</a></small>
         </div>
         <div class="col-6 text-end">
             <button type="submit" class="btn btn-primary">Masuk</button>

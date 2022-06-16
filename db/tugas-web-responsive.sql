@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 15 Jun 2022 pada 17.43
--- Versi server: 10.4.22-MariaDB
--- Versi PHP: 8.0.13
+-- Waktu pembuatan: 16 Jun 2022 pada 10.39
+-- Versi server: 10.4.24-MariaDB
+-- Versi PHP: 8.1.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `tubeswr`
+-- Database: `tugas-web-responsive`
 --
 
 -- --------------------------------------------------------
@@ -114,7 +114,8 @@ INSERT INTO `users` (`id`, `name`, `email`, `password`, `remember_token`, `creat
 (3, 'yudi', 'yd@mail.com', '81dc9bdb52d04dc20036dbd8313ed055', NULL, '2022-06-15 07:03:53', '2022-06-15 07:03:53'),
 (4, 'w', 'w@mail.com', 'caf1a3dfb505ffed0d024130f58c5cfa', NULL, '2022-06-15 07:09:01', '2022-06-15 07:09:01'),
 (5, 'yudistira', 'aku@mail.com', '0192023a7bbd73250516f069df18b500', NULL, '2022-06-15 07:41:59', '2022-06-15 07:41:59'),
-(6, 'aku', 'kamu@mail.com', '$2y$10$1ZalQIdLvBa/aMf45hj1kun61UNPsD2R8WIMHPDkctQMGw/PA7/Ey', NULL, '2022-06-15 07:46:15', '2022-06-15 07:46:15');
+(6, 'aku', 'kamu@mail.com', '$2y$10$1ZalQIdLvBa/aMf45hj1kun61UNPsD2R8WIMHPDkctQMGw/PA7/Ey', NULL, '2022-06-15 07:46:15', '2022-06-15 07:46:15'),
+(7, 'yusufseptian', 'yusuf@gmail.com', '$2y$10$udk48f4Glb9H9matHcTfGOIcVm8teK5ekeKFqC2IK1Ner0A0jW6Ki', NULL, '2022-06-16 14:29:01', '2022-06-16 14:29:01');
 
 --
 -- Indexes for dumped tables
@@ -180,7 +181,7 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT untuk tabel `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
