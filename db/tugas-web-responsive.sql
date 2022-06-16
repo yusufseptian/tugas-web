@@ -110,11 +110,6 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(2, 'wahyudi', 'wyd@mail.com', '21232f297a57a5a743894a0e4a801fc3', NULL, '2022-06-15 07:01:45', '2022-06-15 07:01:45'),
-(3, 'yudi', 'yd@mail.com', '81dc9bdb52d04dc20036dbd8313ed055', NULL, '2022-06-15 07:03:53', '2022-06-15 07:03:53'),
-(4, 'w', 'w@mail.com', 'caf1a3dfb505ffed0d024130f58c5cfa', NULL, '2022-06-15 07:09:01', '2022-06-15 07:09:01'),
-(5, 'yudistira', 'aku@mail.com', '0192023a7bbd73250516f069df18b500', NULL, '2022-06-15 07:41:59', '2022-06-15 07:41:59'),
-(6, 'aku', 'kamu@mail.com', '$2y$10$1ZalQIdLvBa/aMf45hj1kun61UNPsD2R8WIMHPDkctQMGw/PA7/Ey', NULL, '2022-06-15 07:46:15', '2022-06-15 07:46:15'),
 (7, 'yusufseptian', 'yusuf@gmail.com', '$2y$10$udk48f4Glb9H9matHcTfGOIcVm8teK5ekeKFqC2IK1Ner0A0jW6Ki', NULL, '2022-06-16 14:29:01', '2022-06-16 14:29:01');
 
 --
